@@ -5,6 +5,11 @@ body,
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 100vh;
   margin: 0 20px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -14,8 +19,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   max-width: 600px;
-  padding: 80px 0;
+  padding-top: 80px;
   margin: 0 auto;
 }
 
@@ -55,4 +61,12 @@ section {
 }
 
 footer {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+footer a {
+  color: lightgrey;
+  text-decoration: none;
 }
